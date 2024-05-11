@@ -20,6 +20,10 @@ static unsigned char frame_expected = 0;
 static int phl_ready = 0;
 static int nak_flag = 0;
 
+static void inc(unsigned char *p) {
+    *p = (*p + 1) % (MAX_SEQ + 1);
+}
+
 static int between(unsigned char a, unsigned char b, unsigned char c) {
     return ((a <= b && b < c) || (c < a && a <= b) || (b < c && c < a));
 }
@@ -71,10 +75,57 @@ int main(int argc, char **argv) {
     disable_network_layer();
 
     while(1) {
+        if ((ack_expected + nbuffered) % (MAX_SEQ + 1) != next_frame_to_send) {
+            if (nbuffered < MAX_SEQ && phl_ready) enable_network_layer();
+            else disable_network_layer();
+        } else { // 窗口大小错误
+            dbg_event("Now window starts from %d\n, expected %d", (ack_expected + nbuffered) % (MAX_SEQ + 1), next_frame_to_send);
+            send_data(FRAME_DATA, next_frame_to_send, frame_expected, buffer);
+            inc(next_frame_to_send);
+        }
+
         event = wait_for_event(&arg);
 
         switch (event) {
+            case NETWORK_LAYER_READY:
+                get_packet(buffer[next_frame_to_send]);
+                nbuffered = nbuffered + 1;
+                send_data(FRAME_DATA, next_frame_to_send, frame_expected, buffer);
+                inc(next_frame_to_send);
+                break;
             
+            case PHYSICAL_LAYER_READY:
+                phl_ready = 1;
+                break;
+
+            case FRAME_RECEIVED:
+                len = recv_frame((unsigned char *)&r, sizeof(r));
+                if (len < 5 || crc32((unsigned char *)&r, len) != 0) { // 5 or 6?
+                    dbg_event("**** Receiver Error, Bad CRC Checksum\n");
+                    if (!nak_flag)
+                        send_data(FRAME_NAK, 0, frame_expected, buffer); // frame_expected出错
+                    break;
+                }
+
+                if (r.kind == FRAME_DATA) {
+                    dbg_frame("Recv DATA %d %d, ID %d\n", r.seq, r.ack, *(short *)r.data);
+                    if (r.seq == frame_expected) {
+                        dbg_frame("Receive the expected frame\n");
+                        put_packet(r.data, len - 7);
+                        inc(frame_expected);
+                        nak_flag = 0;
+                        start_ack_timer(ACK_TIMER);
+                    } else if (!nak_flag) {
+                        dbg_frame("Receive the unexpected frame %d, NAK sent\n", r.seq);
+                        send_data(FRAME_NAK, 0, frame_expected, buffer);
+                    }
+                }
+                
+                if (r.kind == FRAME_ACK) 
+                    dbg_frame("Recv ACK  %d\n", r.ack);
+
+                if (r.kind == FRAME_NAK && (r.ack)
+                break;
         }
     }
 }
