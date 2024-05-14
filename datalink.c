@@ -130,7 +130,7 @@ int main(int argc, char **argv) {
 
                 while (between(ack_expected, r.ack, next_frame_to_send)) {
                     nbuffered = nbuffered - 1;
-                    stop_timer(ack_expected % NR_BUFS);
+                    stop_timer(ack_expected);
                     inc(ack_expected);
                 }
                 break;
