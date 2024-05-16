@@ -2,496 +2,436 @@
 000.000                     Station B                               
 000.000 -------------------------------------------------------------
 000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
-000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
-000.000 Log file "./datalink-B.log", TCP port 59144, debug mask 0x03
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-04
+000.000 Log file "./datalink-B.log", TCP port 59144, debug mask 0x00
 000.000 Station B is connecting station A (TCP port 59144) ... Done.
-000.145 New epoch: Wed May 15 00:17:37 2024
-000.145 =================================================================
-000.145 
-000.145 Designed by Xie Muhang, build: May 15 2024  00:17:32
-000.145 Send DATA 0 63, ID 20000
-000.390 Send DATA 1 63, ID 20001
-000.650 Send DATA 2 63, ID 20002
-000.680 Recv DATA 0 63, ID 10000
-000.680 Put packetseq:0, ID: 10000
-000.926 Send DATA 3 0, ID 20003
-000.956 Recv DATA 1 63, ID 10001
-000.956 Put packetseq:1, ID: 10001
-001.186 Send DATA 4 1, ID 20004
-001.217 Recv DATA 2 63, ID 10002
-001.217 Put packetseq:2, ID: 10002
-001.233 Recv NAK  0
-001.233 Send DATA 0 2, ID 20000
-001.492 Recv DATA 3 63, ID 10003
-001.492 Put packetseq:3, ID: 10003
-001.706 Send DATA 5 3, ID 20005
-001.766 Recv DATA 4 63, ID 10004
-001.766 Put packetseq:4, ID: 10004
-001.980 Send DATA 6 4, ID 20006
-002.010 Recv DATA 5 63, ID 10005
-002.010 Put packetseq:5, ID: 10005
-002.239 Send DATA 7 5, ID 20007
-002.284 Recv DATA 6 63, ID 10006
-002.285 Put packetseq:6, ID: 10006
-002.498 Send DATA 8 6, ID 20008
-002.559 Recv DATA 7 63, ID 10007
-002.559 Put packetseq:7, ID: 10007
-002.560 .... 8 packets received, 7660 bps, 95.75%, Err 0 (0.0e+00)
-002.773 Send DATA 9 7, ID 20009
-002.818 Recv DATA 8 4, ID 10008
-002.818 Put packetseq:8, ID: 10008
-003.031 Send DATA 10 8, ID 20010
-003.077 Recv DATA 9 5, ID 10009
-003.077 Put packetseq:9, ID: 10009
-003.291 Send DATA 11 9, ID 20011
-003.351 Recv DATA 10 6, ID 10010
-003.351 Put packetseq:10, ID: 10010
-003.565 Send DATA 12 10, ID 20012
-003.595 Recv DATA 11 7, ID 10011
-003.595 Put packetseq:11, ID: 10011
-003.824 Send DATA 13 11, ID 20013
-003.871 Recv DATA 12 8, ID 10012
-003.871 Put packetseq:12, ID: 10012
-004.085 Send DATA 14 12, ID 20014
-004.131 **** Receiver Error, Bad CRC Checksum
-004.131 Send NAK  13
-004.360 Send DATA 15 12, ID 20015
-004.375 Recv DATA 14 10, ID 10014
-004.619 Send DATA 16 12, ID 20016
-004.680 Recv DATA 15 11, ID 10015
-004.894 Send DATA 17 12, ID 20017
-004.925 Recv DATA 16 12, ID 10016
-005.154 Send DATA 18 12, ID 20018
-005.169 Recv DATA 17 13, ID 10017
-005.414 Send DATA 19 12, ID 20019
-005.460 Recv DATA 13 14, ID 10013
-005.460 Put packetseq:13, ID: 10013
-005.460 .... 14 packets received, 5689 bps, 71.11%, Err 2 (4.7e-05)
-005.460 Put packetseq:14, ID: 10014
-005.460 Put packetseq:15, ID: 10015
-005.460 Put packetseq:16, ID: 10016
-005.460 Put packetseq:17, ID: 10017
-005.674 Send DATA 20 17, ID 20020
-005.720 **** Receiver Error, Bad CRC Checksum
-005.720 Send NAK  18
-005.949 Send DATA 21 17, ID 20021
-005.965 Recv DATA 19 16, ID 10019
-006.211 Send DATA 22 17, ID 20022
-006.226 Recv DATA 20 17, ID 10020
-006.486 Send DATA 23 17, ID 20023
-006.486 Recv DATA 21 18, ID 10021
-006.746 Send DATA 24 17, ID 20024
-006.761 Recv DATA 22 19, ID 10022
-007.006 Send DATA 25 17, ID 20025
-007.037 Recv DATA 18 20, ID 10018
-007.037 Put packetseq:18, ID: 10018
-007.037 Put packetseq:19, ID: 10019
-007.037 Put packetseq:20, ID: 10020
-007.037 Put packetseq:21, ID: 10021
-007.037 Put packetseq:22, ID: 10022
-007.266 Send DATA 26 22, ID 20026
-007.297 Recv DATA 23 21, ID 10023
-007.297 Put packetseq:23, ID: 10023
-007.527 Send DATA 27 23, ID 20027
-007.558 Recv DATA 24 22, ID 10024
-007.558 Put packetseq:24, ID: 10024
-007.558 .... 25 packets received, 7173 bps, 89.66%, Err 2 (3.4e-05)
-007.803 Send DATA 28 24, ID 20028
-007.819 Recv DATA 25 23, ID 10025
-007.819 Put packetseq:25, ID: 10025
-008.063 Send DATA 29 25, ID 20029
-008.094 Recv DATA 26 24, ID 10026
-008.094 Put packetseq:26, ID: 10026
-008.323 Send DATA 30 26, ID 20030
-008.368 Recv DATA 27 25, ID 10027
-008.368 Put packetseq:27, ID: 10027
-008.583 Send DATA 31 27, ID 20031
-008.598 Recv DATA 28 26, ID 10028
-008.599 Put packetseq:28, ID: 10028
-008.859 Send DATA 32 28, ID 20032
-008.874 Recv DATA 29 27, ID 10029
-008.874 Put packetseq:29, ID: 10029
-009.120 Send DATA 33 29, ID 20033
-009.135 Recv DATA 30 28, ID 10030
-009.135 Put packetseq:30, ID: 10030
-009.380 Send DATA 34 30, ID 20034
-009.396 Recv DATA 31 29, ID 10031
-009.396 Put packetseq:31, ID: 10031
-009.640 Send DATA 35 31, ID 20035
-009.671 Recv DATA 32 30, ID 10032
-009.671 Put packetseq:32, ID: 10032
-009.671 .... 33 packets received, 7306 bps, 91.32%, Err 2 (2.6e-05)
-009.915 Send DATA 36 32, ID 20036
-009.931 Recv DATA 33 31, ID 10033
-009.931 Put packetseq:33, ID: 10033
-010.174 Send DATA 37 33, ID 20037
-010.205 Recv DATA 34 32, ID 10034
-010.205 Put packetseq:34, ID: 10034
-010.434 Send DATA 38 34, ID 20038
-010.465 Recv DATA 35 33, ID 10035
-010.465 Put packetseq:35, ID: 10035
-010.709 Send DATA 39 35, ID 20039
-010.724 Recv DATA 36 34, ID 10036
-010.724 Put packetseq:36, ID: 10036
-010.967 Send DATA 40 36, ID 20040
-010.998 Recv DATA 37 35, ID 10037
-010.998 Put packetseq:37, ID: 10037
-011.227 Send DATA 41 37, ID 20041
-011.257 Recv DATA 38 36, ID 10038
-011.257 Put packetseq:38, ID: 10038
-011.502 Recv DATA 39 37, ID 10039
-011.502 Put packetseq:39, ID: 10039
-011.502 Send DATA 42 39, ID 20042
-011.761 Send DATA 43 39, ID 20043
-011.792 Recv DATA 40 38, ID 10040
-011.792 Put packetseq:40, ID: 10040
-011.792 .... 41 packets received, 7384 bps, 92.30%, Err 2 (2.1e-05)
-012.021 Send DATA 44 40, ID 20044
-012.036 Recv DATA 41 39, ID 10041
-012.036 Put packetseq:41, ID: 10041
-012.282 Send DATA 45 41, ID 20045
-012.298 Recv DATA 42 40, ID 10042
-012.298 Put packetseq:42, ID: 10042
-012.543 Send DATA 46 42, ID 20046
-012.558 Recv DATA 43 41, ID 10043
-012.558 Put packetseq:43, ID: 10043
-012.818 Send DATA 47 43, ID 20047
-012.849 Recv DATA 44 42, ID 10044
-012.849 Put packetseq:44, ID: 10044
-013.079 Send DATA 48 44, ID 20048
-013.094 Recv DATA 45 43, ID 10045
-013.094 Put packetseq:45, ID: 10045
-013.339 Send DATA 49 45, ID 20049
-013.355 Recv DATA 46 44, ID 10046
-013.355 Put packetseq:46, ID: 10046
-013.600 Send DATA 50 46, ID 20050
-013.631 Recv DATA 47 45, ID 10047
-013.631 Put packetseq:47, ID: 10047
-013.875 Send DATA 51 47, ID 20051
-013.906 Recv DATA 48 46, ID 10048
-013.906 Put packetseq:48, ID: 10048
-013.906 .... 49 packets received, 7441 bps, 93.01%, Err 2 (1.8e-05)
-014.136 Send DATA 52 48, ID 20052
-014.151 Recv DATA 49 47, ID 10049
-014.151 Put packetseq:49, ID: 10049
-014.396 Send DATA 53 49, ID 20053
-014.411 Recv DATA 50 48, ID 10050
-014.411 Put packetseq:50, ID: 10050
-014.655 Send DATA 54 50, ID 20054
-014.686 Recv DATA 51 49, ID 10051
-014.686 Put packetseq:51, ID: 10051
-014.930 Send DATA 55 51, ID 20055
-014.960 Recv DATA 52 50, ID 10052
-014.960 Put packetseq:52, ID: 10052
-015.189 Send DATA 56 52, ID 20056
-015.220 Recv DATA 53 51, ID 10053
-015.220 Put packetseq:53, ID: 10053
-015.448 Send DATA 57 53, ID 20057
-015.479 Recv DATA 54 52, ID 10054
-015.479 Put packetseq:54, ID: 10054
-015.722 Send DATA 58 54, ID 20058
-015.753 Recv DATA 55 53, ID 10055
-015.753 Put packetseq:55, ID: 10055
-015.982 Send DATA 59 55, ID 20059
-016.028 Recv DATA 56 54, ID 10056
-016.028 Put packetseq:56, ID: 10056
-016.028 .... 57 packets received, 7479 bps, 93.49%, Err 2 (1.6e-05)
-016.242 Send DATA 60 56, ID 20060
-016.257 Recv DATA 57 55, ID 10057
-016.257 Put packetseq:57, ID: 10057
-016.517 Recv DATA 58 56, ID 10058
-016.517 Put packetseq:58, ID: 10058
-016.517 Send DATA 61 58, ID 20061
-016.778 Send DATA 62 58, ID 20062
-016.809 Recv DATA 59 57, ID 10059
-016.809 Put packetseq:59, ID: 10059
-017.038 Send DATA 63 59, ID 20063
-017.069 Recv DATA 60 58, ID 10060
-017.070 Put packetseq:60, ID: 10060
-017.299 Send DATA 0 60, ID 20064
-017.345 Recv DATA 61 59, ID 10061
-017.345 Put packetseq:61, ID: 10061
-017.559 Send DATA 1 61, ID 20065
-017.574 Recv DATA 62 60, ID 10062
-017.574 Put packetseq:62, ID: 10062
-017.834 Send DATA 2 62, ID 20066
-017.865 Recv DATA 63 61, ID 10063
-017.865 Put packetseq:63, ID: 10063
-018.094 Send DATA 3 63, ID 20067
-018.125 Recv DATA 0 62, ID 10064
-018.125 Put packetseq:0, ID: 10064
-018.125 .... 65 packets received, 7519 bps, 93.98%, Err 2 (1.4e-05)
-018.355 Send DATA 4 0, ID 20068
-018.385 Recv DATA 1 63, ID 10065
-018.385 Put packetseq:1, ID: 10065
-018.615 Send DATA 5 1, ID 20069
-018.630 Recv DATA 2 0, ID 10066
-018.630 Put packetseq:2, ID: 10066
-018.891 Send DATA 6 2, ID 20070
-018.921 Recv DATA 3 1, ID 10067
-018.921 Put packetseq:3, ID: 10067
-019.150 Send DATA 7 3, ID 20071
-019.181 Recv DATA 4 2, ID 10068
-019.181 Put packetseq:4, ID: 10068
-019.410 Send DATA 8 4, ID 20072
-019.441 Recv DATA 5 3, ID 10069
-019.441 Put packetseq:5, ID: 10069
-019.671 Send DATA 9 5, ID 20073
-019.686 Recv DATA 6 4, ID 10070
-019.687 Put packetseq:6, ID: 10070
-019.946 Send DATA 10 6, ID 20074
-019.962 Recv DATA 7 5, ID 10071
-019.962 Put packetseq:7, ID: 10071
-020.207 Send DATA 11 7, ID 20075
-020.222 Recv DATA 8 6, ID 10072
-020.222 Put packetseq:8, ID: 10072
-020.222 .... 73 packets received, 7550 bps, 94.37%, Err 2 (1.2e-05)
-020.467 Send DATA 12 8, ID 20076
-020.482 Recv DATA 9 7, ID 10073
-020.482 Put packetseq:9, ID: 10073
-020.727 Send DATA 13 9, ID 20077
-020.742 Recv DATA 10 8, ID 10074
-020.743 Put packetseq:10, ID: 10074
-021.003 Send DATA 14 10, ID 20078
-021.034 Recv DATA 11 9, ID 10075
-021.034 Put packetseq:11, ID: 10075
-021.263 Send DATA 15 11, ID 20079
-021.294 Recv DATA 12 10, ID 10076
-021.294 Put packetseq:12, ID: 10076
-021.524 Send DATA 16 12, ID 20080
-021.539 Recv DATA 13 11, ID 10077
-021.539 Put packetseq:13, ID: 10077
-021.784 Send DATA 17 13, ID 20081
-021.814 Recv DATA 14 12, ID 10078
-021.814 Put packetseq:14, ID: 10078
-022.060 Send DATA 18 14, ID 20082
-022.091 Recv DATA 15 13, ID 10079
-022.091 Put packetseq:15, ID: 10079
-022.321 Send DATA 19 15, ID 20083
-022.351 Recv DATA 16 14, ID 10080
-022.351 Put packetseq:16, ID: 10080
-022.351 .... 81 packets received, 7564 bps, 94.55%, Err 2 (1.1e-05)
-022.581 Send DATA 20 16, ID 20084
-022.611 Recv DATA 17 15, ID 10081
-022.611 Put packetseq:17, ID: 10081
-022.841 Send DATA 21 17, ID 20085
-022.872 Recv DATA 18 16, ID 10082
-022.872 Put packetseq:18, ID: 10082
-023.116 Send DATA 22 18, ID 20086
-023.131 Recv DATA 19 17, ID 10083
-023.138 Put packetseq:19, ID: 10083
-023.380 Send DATA 23 19, ID 20087
-023.411 Recv DATA 20 18, ID 10084
-023.411 Put packetseq:20, ID: 10084
-023.639 Send DATA 24 20, ID 20088
-023.669 Recv DATA 21 19, ID 10085
-023.670 Put packetseq:21, ID: 10085
-023.900 Send DATA 25 21, ID 20089
-023.915 Recv DATA 22 20, ID 10086
-023.915 Put packetseq:22, ID: 10086
-024.160 Send DATA 26 22, ID 20090
-024.190 Recv DATA 23 21, ID 10087
-024.191 Put packetseq:23, ID: 10087
-024.434 Send DATA 27 23, ID 20091
-024.465 Recv DATA 24 22, ID 10088
-024.465 Put packetseq:24, ID: 10088
-024.465 .... 89 packets received, 7580 bps, 94.76%, Err 2 (1.0e-05)
-024.693 Send DATA 28 24, ID 20092
-024.724 Recv DATA 25 23, ID 10089
-024.724 Put packetseq:25, ID: 10089
-024.952 Send DATA 29 25, ID 20093
-024.982 Recv DATA 26 24, ID 10090
-024.983 Put packetseq:26, ID: 10090
-025.227 Send DATA 30 26, ID 20094
-025.243 Recv DATA 27 25, ID 10091
-025.243 Put packetseq:27, ID: 10091
-025.487 Send DATA 31 27, ID 20095
-025.518 **** Receiver Error, Bad CRC Checksum
-025.518 Send NAK  28
-025.764 Recv DATA 29 27, ID 10093
-025.764 Send DATA 32 27, ID 20096
-026.025 Send DATA 33 27, ID 20097
-026.040 Recv DATA 30 28, ID 10094
-026.285 Send DATA 34 27, ID 20098
-026.301 Recv DATA 31 29, ID 10095
-026.545 Send DATA 35 27, ID 20099
-026.576 Recv DATA 32 30, ID 10096
-026.806 Send DATA 36 27, ID 20100
-026.821 Recv DATA 28 31, ID 10092
-026.821 Put packetseq:28, ID: 10092
-026.821 .... 93 packets received, 7214 bps, 90.18%, Err 3 (1.4e-05)
-026.821 Put packetseq:29, ID: 10093
-026.821 Put packetseq:30, ID: 10094
-026.823 Put packetseq:31, ID: 10095
-026.823 Put packetseq:32, ID: 10096
-027.083 Send DATA 37 32, ID 20101
-027.098 Recv DATA 33 32, ID 10097
-027.098 Put packetseq:33, ID: 10097
-027.342 Send DATA 38 33, ID 20102
-027.372 Recv DATA 34 33, ID 10098
-027.373 Put packetseq:34, ID: 10098
-027.602 Send DATA 39 34, ID 20103
-027.617 Recv DATA 35 34, ID 10099
-027.617 Put packetseq:35, ID: 10099
-027.877 Recv DATA 36 35, ID 10100
-027.877 Put packetseq:36, ID: 10100
-027.877 Send DATA 40 36, ID 20104
-028.136 Send DATA 41 36, ID 20105
-028.154 Recv DATA 37 36, ID 10101
-028.154 Put packetseq:37, ID: 10101
-028.397 Send DATA 42 37, ID 20106
-028.428 Recv DATA 38 37, ID 10102
-028.428 Put packetseq:38, ID: 10102
-028.656 Send DATA 43 38, ID 20107
-028.686 Recv DATA 39 38, ID 10103
-028.686 Put packetseq:39, ID: 10103
-028.931 Send DATA 44 39, ID 20108
-028.946 Recv DATA 40 39, ID 10104
-028.946 Put packetseq:40, ID: 10104
-028.946 .... 105 packets received, 7538 bps, 94.23%, Err 3 (1.3e-05)
-029.190 Send DATA 45 40, ID 20109
-029.221 Recv DATA 41 40, ID 10105
-029.221 Put packetseq:41, ID: 10105
-029.449 Send DATA 46 41, ID 20110
-029.480 Recv DATA 42 41, ID 10106
-029.480 Put packetseq:42, ID: 10106
-029.710 Send DATA 47 42, ID 20111
-029.741 Recv DATA 43 42, ID 10107
-029.741 Put packetseq:43, ID: 10107
-029.986 Send DATA 48 43, ID 20112
-030.002 Recv DATA 44 43, ID 10108
-030.002 Put packetseq:44, ID: 10108
-030.247 Send DATA 49 44, ID 20113
-030.262 Recv DATA 45 44, ID 10109
-030.262 Put packetseq:45, ID: 10109
-030.506 Send DATA 50 45, ID 20114
-030.523 Recv DATA 46 45, ID 10110
-030.523 Put packetseq:46, ID: 10110
-030.768 Send DATA 51 46, ID 20115
-030.799 Recv DATA 47 46, ID 10111
-030.799 Put packetseq:47, ID: 10111
-031.043 Send DATA 52 47, ID 20116
-031.059 Recv DATA 48 47, ID 10112
-031.059 Put packetseq:48, ID: 10112
-031.059 .... 113 packets received, 7553 bps, 94.42%, Err 3 (1.2e-05)
-031.304 Send DATA 53 48, ID 20117
-031.319 Recv DATA 49 48, ID 10113
-031.319 Put packetseq:49, ID: 10113
-031.564 Recv DATA 50 49, ID 10114
-031.564 Put packetseq:50, ID: 10114
-031.566 Send DATA 54 50, ID 20118
-031.826 Send DATA 55 50, ID 20119
-031.841 Recv DATA 51 50, ID 10115
-031.841 Put packetseq:51, ID: 10115
-032.086 Send DATA 56 51, ID 20120
-032.101 Recv DATA 52 51, ID 10116
-032.101 Put packetseq:52, ID: 10116
-032.361 Recv DATA 53 52, ID 10117
-032.361 Put packetseq:53, ID: 10117
-032.361 Send DATA 57 53, ID 20121
-032.621 Recv DATA 54 53, ID 10118
-032.621 Put packetseq:54, ID: 10118
-032.621 Send DATA 58 54, ID 20122
-032.880 Send DATA 59 54, ID 20123
-032.911 Recv DATA 55 54, ID 10119
-032.911 Put packetseq:55, ID: 10119
-033.156 Recv DATA 56 55, ID 10120
-033.156 Put packetseq:56, ID: 10120
-033.156 .... 121 packets received, 7570 bps, 94.62%, Err 4 (1.5e-05)
-033.156 Send DATA 60 56, ID 20124
-033.416 Send DATA 61 56, ID 20125
-033.431 **** Receiver Error, Bad CRC Checksum
-033.431 Send NAK  57
-033.692 Recv DATA 58 57, ID 10122
-033.692 Send DATA 62 56, ID 20126
-033.952 Recv DATA 59 58, ID 10123
-033.952 Send DATA 63 56, ID 20127
-034.212 Send DATA 0 56, ID 20128
-034.228 Recv DATA 60 59, ID 10124
-034.474 Recv DATA 61 60, ID 10125
-034.474 Send DATA 1 56, ID 20129
-034.734 **** Receiver Error, Bad CRC Checksum
-034.734 Send DATA 2 56, ID 20130
-035.009 Recv DATA 62 62, ID 10126
-035.009 Send DATA 3 56, ID 20131
-035.269 Send DATA 4 56, ID 20132
-035.284 Recv DATA 63 63, ID 10127
-035.529 Recv DATA 0 0, ID 10128
-035.529 Send DATA 5 56, ID 20133
-035.804 Recv DATA 1 1, ID 10129
-035.804 Send DATA 6 56, ID 20134
-036.064 Recv DATA 2 2, ID 10130
-036.064 Send DATA 7 56, ID 20135
-036.325 Send DATA 8 56, ID 20136
-036.341 Recv DATA 58 3, ID 10122
-036.586 Send DATA 9 56, ID 20137
-036.602 Recv DATA 59 4, ID 10123
-036.846 Recv DATA 60 5, ID 10124
-036.846 Send DATA 10 56, ID 20138
-037.122 Recv DATA 61 6, ID 10125
-037.122 Send DATA 11 56, ID 20139
-037.382 Send DATA 12 56, ID 20140
-037.397 Recv DATA 3 7, ID 10131
-037.640 Send DATA 13 56, ID 20141
-037.671 Recv DATA 57 8, ID 10121
-037.671 Put packetseq:57, ID: 10121
-037.671 .... 122 packets received, 6707 bps, 83.84%, Err 5 (1.7e-05)
-037.671 Put packetseq:58, ID: 10122
-037.671 Put packetseq:59, ID: 10123
-037.671 Put packetseq:60, ID: 10124
-037.671 Put packetseq:61, ID: 10125
-037.671 Put packetseq:62, ID: 10126
-037.671 Put packetseq:63, ID: 10127
-037.671 Put packetseq:0, ID: 10128
-037.671 Put packetseq:1, ID: 10129
-037.671 Put packetseq:2, ID: 10130
-037.671 Put packetseq:3, ID: 10131
-037.915 Recv DATA 62 8, ID 10126
-037.915  Recv frame wrong, NAK sent back
-037.915 Send NAK  4
-037.915 Send DATA 14 3, ID 20142
-038.175 Recv DATA 63 9, ID 10127
-038.175 Send DATA 15 3, ID 20143
-038.450 Recv DATA 0 10, ID 10128
-038.450 Send DATA 16 3, ID 20144
-038.710 Recv DATA 1 11, ID 10129
-038.710 Send DATA 17 3, ID 20145
-038.969 Send DATA 18 3, ID 20146
-038.985 Recv DATA 2 12, ID 10130
-039.229 Recv DATA 4 14, ID 10132
-039.229 Put packetseq:4, ID: 10132
-039.229 Send DATA 19 4, ID 20147
-039.504 Recv DATA 5 15, ID 10133
-039.504 Put packetseq:5, ID: 10133
-039.504 Send DATA 20 5, ID 20148
-039.748 Recv DATA 6 16, ID 10134
-039.748 Put packetseq:6, ID: 10134
-039.748 .... 135 packets received, 7030 bps, 87.88%, Err 5 (1.6e-05)
-039.764 Recv NAK  17
-039.765 Send DATA 17 6, ID 20145
-040.024 Send DATA 21 6, ID 20149
-040.040 Recv DATA 7 16, ID 10135
-040.040 Put packetseq:7, ID: 10135
-040.299 Recv DATA 8 16, ID 10136
-040.299 Put packetseq:8, ID: 10136
-040.299 Send DATA 22 8, ID 20150
-040.559 Recv DATA 9 16, ID 10137
-040.559 Put packetseq:9, ID: 10137
-040.559 Send DATA 23 9, ID 20151
-040.818 Send DATA 24 9, ID 20152
-040.849 Recv DATA 10 16, ID 10138
-040.849 Put packetseq:10, ID: 10138
-041.078 Recv DATA 11 20, ID 10139
-041.079 Put packetseq:11, ID: 10139
-041.079 Send DATA 25 11, ID 20153
-041.354 Recv DATA 12 21, ID 10140
-041.354 Put packetseq:12, ID: 10140
-041.354 Send DATA 26 12, ID 20154
-041.615 Recv DATA 13 22, ID 10141
-041.615 Put packetseq:13, ID: 10141
-041.615 Send DATA 27 13, ID 20155
-041.874 Send DATA 28 13, ID 20156
-041.890 Recv DATA 14 23, ID 10142
-041.890 Put packetseq:14, ID: 10142
-041.890 .... 143 packets received, 7062 bps, 88.28%, Err 5 (1.5e-05)
-042.135 Recv DATA 15 24, ID 101
+000.092 New epoch: Thu May 16 21:56:01 2024
+000.093 =================================================================
+000.093 
+000.093 Designed by Xie Muhang, build: May 16 2024  20:34:57
+002.490 .... 7 packets received, 6801 bps, 85.01%, Err 2 (1.1e-04)
+005.683 .... 14 packets received, 5409 bps, 67.61%, Err 6 (1.3e-04)
+008.568 .... 19 packets received, 4753 bps, 59.42%, Err 10 (1.5e-04)
+011.483 .... 27 packets received, 4981 bps, 62.26%, Err 11 (1.2e-04)
+013.617 .... 34 packets received, 5261 bps, 65.77%, Err 11 (1.0e-04)
+015.753 .... 37 packets received, 4930 bps, 61.62%, Err 14 (1.1e-04)
+017.857 .... 47 packets received, 5508 bps, 68.85%, Err 16 (1.1e-04)
+019.963 .... 49 packets received, 5125 bps, 64.06%, Err 18 (1.1e-04)
+022.107 .... 59 packets received, 5562 bps, 69.52%, Err 19 (1.1e-04)
+025.289 .... 63 packets received, 5180 bps, 64.75%, Err 21 (1.0e-04)
+028.456 .... 71 packets received, 5179 bps, 64.74%, Err 23 (1.0e-04)
+030.817 .... 80 packets received, 5383 bps, 67.29%, Err 26 (1.1e-04)
+033.739 .... 84 packets received, 5157 bps, 64.47%, Err 28 (1.0e-04)
+040.927 .... 88 packets received, 4445 bps, 55.56%, Err 36 (1.1e-04)
+043.035 .... 100 packets received, 4802 bps, 60.02%, Err 36 (1.0e-04)
+045.406 .... 107 packets received, 4867 bps, 60.84%, Err 38 (1.0e-04)
+048.571 .... 111 packets received, 4717 bps, 58.97%, Err 42 (1.1e-04)
+051.487 .... 114 packets received, 4568 bps, 57.11%, Err 46 (1.1e-04)
+053.611 .... 124 packets received, 4771 bps, 59.64%, Err 47 (1.1e-04)
+056.538 .... 130 packets received, 4741 bps, 59.26%, Err 48 (1.1e-04)
+058.646 .... 142 packets received, 4991 bps, 62.39%, Err 48 (1.0e-04)
+062.091 .... 145 packets received, 4812 bps, 60.15%, Err 51 (1.0e-04)
+064.747 .... 155 packets received, 4932 bps, 61.65%, Err 52 (1.0e-04)
+066.870 .... 158 packets received, 4867 bps, 60.84%, Err 53 (9.9e-05)
+069.250 .... 166 packets received, 4937 bps, 61.71%, Err 56 (1.0e-04)
+073.767 .... 168 packets received, 4688 bps, 58.61%, Err 59 (1.0e-04)
+075.898 .... 180 packets received, 4882 bps, 61.02%, Err 59 (9.7e-05)
+079.347 .... 184 packets received, 4772 bps, 59.65%, Err 62 (9.8e-05)
+081.995 .... 194 packets received, 4868 bps, 60.85%, Err 65 (9.9e-05)
+088.344 .... 199 packets received, 4633 bps, 57.92%, Err 71 (1.0e-04)
+090.477 .... 211 packets received, 4796 bps, 59.95%, Err 74 (1.0e-04)
+092.827 .... 215 packets received, 4763 bps, 59.54%, Err 75 (1.0e-04)
+095.235 .... 223 packets received, 4815 bps, 60.19%, Err 76 (1.0e-04)
+097.336 .... 234 packets received, 4943 bps, 61.79%, Err 76 (9.8e-05)
+099.996 .... 239 packets received, 4914 bps, 61.42%, Err 77 (9.6e-05)
+102.113 .... 246 packets received, 4952 bps, 61.90%, Err 78 (9.6e-05)
+104.225 .... 252 packets received, 4970 bps, 62.12%, Err 81 (9.7e-05)
+107.421 .... 259 packets received, 4956 bps, 61.94%, Err 84 (9.8e-05)
+110.602 .... 263 packets received, 4887 bps, 61.09%, Err 87 (9.8e-05)
+113.763 .... 272 packets received, 4913 bps, 61.41%, Err 90 (9.9e-05)
+116.668 .... 275 packets received, 4843 bps, 60.54%, Err 92 (9.9e-05)
+121.413 .... 281 packets received, 4755 bps, 59.44%, Err 99 (1.0e-04)
+124.072 .... 290 packets received, 4802 bps, 60.02%, Err 99 (1.0e-04)
+126.970 .... 296 packets received, 4789 bps, 59.86%, Err 101 (1.0e-04)
+129.103 .... 302 packets received, 4805 bps, 60.06%, Err 102 (9.9e-05)
+131.218 .... 309 packets received, 4837 bps, 60.46%, Err 106 (1.0e-04)
+135.461 .... 311 packets received, 4715 bps, 58.94%, Err 111 (1.0e-04)
+137.570 .... 323 packets received, 4822 bps, 60.27%, Err 111 (1.0e-04)
+140.492 .... 329 packets received, 4809 bps, 60.11%, Err 116 (1.0e-04)
+142.619 .... 339 packets received, 4881 bps, 61.01%, Err 118 (1.0e-04)
+144.730 .... 343 packets received, 4866 bps, 60.83%, Err 123 (1.1e-04)
+147.380 .... 345 packets received, 4807 bps, 60.08%, Err 124 (1.1e-04)
+149.508 .... 356 packets received, 4889 bps, 61.11%, Err 126 (1.1e-04)
+151.892 .... 360 packets received, 4866 bps, 60.83%, Err 128 (1.1e-04)
+155.079 .... 370 packets received, 4898 bps, 61.23%, Err 130 (1.0e-04)
+161.450 .... 376 packets received, 4781 bps, 59.76%, Err 136 (1.1e-04)
+163.554 .... 388 packets received, 4870 bps, 60.87%, Err 136 (1.0e-04)
+165.684 .... 396 packets received, 4906 bps, 61.33%, Err 136 (1.0e-04)
+167.814 .... 399 packets received, 4881 bps, 61.01%, Err 137 (1.0e-04)
+169.926 .... 406 packets received, 4904 bps, 61.30%, Err 139 (1.0e-04)
+172.040 .... 417 packets received, 4975 bps, 62.19%, Err 139 (1.0e-04)
+174.690 .... 420 packets received, 4935 bps, 61.68%, Err 140 (1.0e-04)
+178.157 .... 427 packets received, 4919 bps, 61.49%, Err 143 (1.0e-04)
+181.060 .... 435 packets received, 4931 bps, 61.63%, Err 146 (1.0e-04)
+183.964 .... 442 packets received, 4931 bps, 61.64%, Err 149 (1.0e-04)
+186.367 .... 448 packets received, 4933 bps, 61.67%, Err 152 (1.0e-04)
+189.275 .... 453 packets received, 4911 bps, 61.39%, Err 154 (1.0e-04)
+193.794 .... 458 packets received, 4850 bps, 60.62%, Err 155 (1.0e-04)
+195.907 .... 470 packets received, 4923 bps, 61.54%, Err 156 (1.0e-04)
+199.363 .... 475 packets received, 4889 bps, 61.11%, Err 160 (1.0e-04)
+203.854 .... 478 packets received, 4811 bps, 60.14%, Err 163 (1.0e-04)
+206.776 .... 489 packets received, 4852 bps, 60.65%, Err 164 (9.9e-05)
+209.424 .... 493 packets received, 4830 bps, 60.37%, Err 166 (9.9e-05)
+211.541 .... 503 packets received, 4879 bps, 60.98%, Err 167 (9.9e-05)
+213.915 .... 510 packets received, 4891 bps, 61.14%, Err 167 (9.8e-05)
+216.045 .... 517 packets received, 4910 bps, 61.37%, Err 168 (9.7e-05)
+218.159 .... 523 packets received, 4918 bps, 61.48%, Err 171 (9.8e-05)
+220.289 .... 530 packets received, 4936 bps, 61.70%, Err 171 (9.7e-05)
+222.420 .... 536 packets received, 4944 bps, 61.80%, Err 172 (9.7e-05)
+224.767 .... 540 packets received, 4929 bps, 61.61%, Err 175 (9.7e-05)
+226.914 .... 542 packets received, 4900 bps, 61.25%, Err 176 (9.7e-05)
+229.031 .... 551 packets received, 4935 bps, 61.69%, Err 178 (9.7e-05)
+231.133 .... 558 packets received, 4952 bps, 61.91%, Err 179 (9.7e-05)
+235.917 .... 560 packets received, 4869 bps, 60.87%, Err 182 (9.6e-05)
+238.060 .... 572 packets received, 4929 bps, 61.61%, Err 182 (9.6e-05)
+248.948 .... 574 packets received, 4729 bps, 59.12%, Err 196 (9.8e-05)
+252.125 .... 587 packets received, 4775 bps, 59.69%, Err 198 (9.8e-05)
+255.290 .... 592 packets received, 4756 bps, 59.45%, Err 200 (9.8e-05)
+257.420 .... 601 packets received, 4789 bps, 59.86%, Err 204 (9.9e-05)
+260.066 .... 603 packets received, 4756 bps, 59.44%, Err 207 (1.0e-04)
+262.726 .... 610 packets received, 4762 bps, 59.52%, Err 210 (1.0e-04)
+264.840 .... 614 packets received, 4755 bps, 59.44%, Err 212 (1.0e-04)
+269.609 .... 618 packets received, 4701 bps, 58.76%, Err 215 (1.0e-04)
+271.999 .... 629 packets received, 4743 bps, 59.28%, Err 217 (1.0e-04)
+274.905 .... 633 packets received, 4722 bps, 59.03%, Err 220 (1.0e-04)
+277.017 .... 644 packets received, 4768 bps, 59.60%, Err 220 (9.9e-05)
+279.422 .... 651 packets received, 4778 bps, 59.72%, Err 220 (9.8e-05)
+281.539 .... 657 packets received, 4786 bps, 59.82%, Err 221 (9.8e-05)
+283.916 .... 661 packets received, 4774 bps, 59.68%, Err 223 (9.8e-05)
+286.017 .... 666 packets received, 4775 bps, 59.69%, Err 224 (9.8e-05)
+290.781 .... 674 packets received, 4753 bps, 59.42%, Err 227 (9.8e-05)
+292.923 .... 686 packets received, 4802 bps, 60.03%, Err 227 (9.7e-05)
+298.472 .... 690 packets received, 4741 bps, 59.26%, Err 232 (9.7e-05)
+301.119 .... 702 packets received, 4781 bps, 59.76%, Err 234 (9.7e-05)
+303.525 .... 709 packets received, 4790 bps, 59.87%, Err 235 (9.7e-05)
+306.433 .... 714 packets received, 4778 bps, 59.72%, Err 241 (9.8e-05)
+312.256 .... 717 packets received, 4708 bps, 58.85%, Err 245 (9.8e-05)
+314.368 .... 730 packets received, 4762 bps, 59.52%, Err 246 (9.8e-05)
+316.481 .... 732 packets received, 4743 bps, 59.28%, Err 254 (1.0e-04)
+318.612 .... 736 packets received, 4737 bps, 59.21%, Err 254 (1.0e-04)
+320.726 .... 738 packets received, 4718 bps, 58.98%, Err 257 (1.0e-04)
+322.857 .... 748 packets received, 4750 bps, 59.38%, Err 259 (1.0e-04)
+325.247 .... 753 packets received, 4747 bps, 59.34%, Err 260 (1.0e-04)
+329.991 .... 755 packets received, 4691 bps, 58.64%, Err 264 (1.0e-04)
+332.364 .... 766 packets received, 4725 bps, 59.07%, Err 265 (1.0e-04)
+335.825 .... 773 packets received, 4719 bps, 58.99%, Err 269 (1.0e-04)
+338.719 .... 778 packets received, 4709 bps, 58.87%, Err 271 (1.0e-04)
+340.853 .... 786 packets received, 4728 bps, 59.10%, Err 274 (1.0e-04)
+343.516 .... 791 packets received, 4721 bps, 59.01%, Err 276 (1.0e-04)
+345.632 .... 802 packets received, 4757 bps, 59.47%, Err 276 (1.0e-04)
+348.279 .... 805 packets received, 4739 bps, 59.24%, Err 278 (1.0e-04)
+351.458 .... 813 packets received, 4743 bps, 59.28%, Err 281 (1.0e-04)
+354.638 .... 816 packets received, 4717 bps, 58.97%, Err 284 (1.0e-04)
+357.028 .... 823 packets received, 4726 bps, 59.07%, Err 286 (1.0e-04)
+359.157 .... 831 packets received, 4744 bps, 59.30%, Err 288 (1.0e-04)
+362.064 .... 837 packets received, 4739 bps, 59.24%, Err 289 (1.0e-04)
+365.504 .... 848 packets received, 4757 bps, 59.46%, Err 293 (1.0e-04)
+370.026 .... 849 packets received, 4704 bps, 58.80%, Err 296 (1.0e-04)
+372.142 .... 860 packets received, 4738 bps, 59.22%, Err 298 (1.0e-04)
+378.491 .... 866 packets received, 4691 bps, 58.63%, Err 303 (1.0e-04)
+380.606 .... 878 packets received, 4729 bps, 59.11%, Err 304 (1.0e-04)
+383.527 .... 884 packets received, 4725 bps, 59.06%, Err 307 (1.0e-04)
+386.967 .... 890 packets received, 4715 bps, 58.94%, Err 311 (1.0e-04)
+389.370 .... 897 packets received, 4723 bps, 59.03%, Err 311 (1.0e-04)
+392.260 .... 902 packets received, 4714 bps, 58.92%, Err 315 (1.0e-04)
+395.719 .... 913 packets received, 4730 bps, 59.12%, Err 318 (1.0e-04)
+398.096 .... 917 packets received, 4722 bps, 59.03%, Err 318 (1.0e-04)
+400.228 .... 927 packets received, 4748 bps, 59.35%, Err 319 (1.0e-04)
+402.850 .... 931 packets received, 4737 bps, 59.22%, Err 322 (1.0e-04)
+407.356 .... 935 packets received, 4705 bps, 58.81%, Err 328 (1.0e-04)
+409.490 .... 946 packets received, 4736 bps, 59.20%, Err 329 (1.0e-04)
+415.326 .... 952 packets received, 4699 bps, 58.73%, Err 332 (1.0e-04)
+417.459 .... 964 packets received, 4734 bps, 59.17%, Err 334 (1.0e-04)
+420.627 .... 968 packets received, 4717 bps, 58.97%, Err 336 (1.0e-04)
+423.822 .... 978 packets received, 4730 bps, 59.13%, Err 341 (1.0e-04)
+425.909 .... 989 packets received, 4760 bps, 59.50%, Err 341 (1.0e-04)
+429.364 .... 995 packets received, 4750 bps, 59.38%, Err 346 (1.0e-04)
+432.292 .... 1001 packets received, 4746 bps, 59.33%, Err 351 (1.0e-04)
+434.409 .... 1008 packets received, 4756 bps, 59.45%, Err 352 (1.0e-04)
+436.542 .... 1011 packets received, 4747 bps, 59.34%, Err 354 (1.0e-04)
+438.646 .... 1021 packets received, 4771 bps, 59.64%, Err 356 (1.0e-04)
+441.824 .... 1023 packets received, 4746 bps, 59.33%, Err 358 (1.0e-04)
+444.472 .... 1033 packets received, 4764 bps, 59.55%, Err 360 (1.0e-04)
+450.565 .... 1040 packets received, 4731 bps, 59.14%, Err 365 (1.0e-04)
+457.719 .... 1051 packets received, 4706 bps, 58.83%, Err 369 (1.0e-04)
+460.109 .... 1062 packets received, 4731 bps, 59.14%, Err 369 (1.0e-04)
+462.255 .... 1070 packets received, 4745 bps, 59.31%, Err 370 (1.0e-04)
+464.905 .... 1076 packets received, 4744 bps, 59.30%, Err 372 (1.0e-04)
+468.885 .... 1078 packets received, 4712 bps, 58.90%, Err 376 (1.0e-04)
+470.973 .... 1090 packets received, 4744 bps, 59.30%, Err 376 (1.0e-04)
+477.610 .... 1094 packets received, 4695 bps, 58.69%, Err 383 (1.0e-04)
+480.533 .... 1105 packets received, 4713 bps, 58.91%, Err 388 (1.0e-04)
+483.197 .... 1111 packets received, 4713 bps, 58.91%, Err 391 (1.0e-04)
+485.334 .... 1114 packets received, 4705 bps, 58.81%, Err 392 (1.0e-04)
+487.450 .... 1123 packets received, 4722 bps, 59.02%, Err 394 (1.0e-04)
+489.566 .... 1127 packets received, 4718 bps, 58.98%, Err 396 (1.0e-04)
+491.679 .... 1138 packets received, 4744 bps, 59.30%, Err 396 (1.0e-04)
+496.181 .... 1140 packets received, 4709 bps, 58.86%, Err 400 (1.0e-04)
+498.296 .... 1151 packets received, 4734 bps, 59.18%, Err 403 (1.0e-04)
+500.411 .... 1157 packets received, 4739 bps, 59.23%, Err 403 (1.0e-04)
+503.319 .... 1162 packets received, 4732 bps, 59.15%, Err 406 (1.0e-04)
+505.422 .... 1172 packets received, 4753 bps, 59.41%, Err 406 (1.0e-04)
+510.478 .... 1174 packets received, 4714 bps, 58.92%, Err 413 (1.0e-04)
+512.577 .... 1183 packets received, 4730 bps, 59.13%, Err 415 (1.0e-04)
+514.689 .... 1186 packets received, 4723 bps, 59.03%, Err 416 (1.0e-04)
+517.078 .... 1192 packets received, 4725 bps, 59.06%, Err 417 (1.0e-04)
+519.221 .... 1204 packets received, 4753 bps, 59.41%, Err 417 (1.0e-04)
+521.339 .... 1212 packets received, 4765 bps, 59.56%, Err 417 (1.0e-04)
+523.469 .... 1219 packets received, 4773 bps, 59.66%, Err 418 (1.0e-04)
+526.647 .... 1224 packets received, 4763 bps, 59.54%, Err 421 (1.0e-04)
+531.423 .... 1233 packets received, 4755 bps, 59.44%, Err 425 (1.0e-04)
+533.799 .... 1243 packets received, 4772 bps, 59.65%, Err 428 (1.0e-04)
+536.205 .... 1248 packets received, 4770 bps, 59.63%, Err 429 (1.0e-04)
+541.224 .... 1256 packets received, 4756 bps, 59.45%, Err 436 (1.0e-04)
+545.738 .... 1258 packets received, 4724 bps, 59.05%, Err 442 (1.0e-04)
+547.837 .... 1270 packets received, 4751 bps, 59.39%, Err 442 (1.0e-04)
+549.968 .... 1276 packets received, 4755 bps, 59.44%, Err 444 (1.0e-04)
+553.150 .... 1280 packets received, 4742 bps, 59.28%, Err 446 (1.0e-04)
+555.262 .... 1291 packets received, 4765 bps, 59.56%, Err 446 (1.0e-04)
+557.374 .... 1297 packets received, 4769 bps, 59.61%, Err 446 (1.0e-04)
+562.693 .... 1302 packets received, 4742 bps, 59.28%, Err 454 (1.0e-04)
+565.338 .... 1312 packets received, 4756 bps, 59.45%, Err 454 (1.0e-04)
+570.890 .... 1317 packets received, 4728 bps, 59.10%, Err 459 (1.0e-04)
+574.315 .... 1329 packets received, 4742 bps, 59.28%, Err 463 (1.0e-04)
+578.556 .... 1333 packets received, 4722 bps, 59.02%, Err 466 (1.0e-04)
+580.683 .... 1346 packets received, 4750 bps, 59.38%, Err 466 (1.0e-04)
+583.056 .... 1350 packets received, 4745 bps, 59.31%, Err 468 (1.0e-04)
+585.700 .... 1356 packets received, 4745 bps, 59.31%, Err 470 (1.0e-04)
+590.993 .... 1364 packets received, 4730 bps, 59.12%, Err 474 (1.0e-04)
+593.080 .... 1374 packets received, 4748 bps, 59.35%, Err 474 (1.0e-04)
+596.276 .... 1381 packets received, 4746 bps, 59.33%, Err 475 (1.0e-04)
+601.552 .... 1389 packets received, 4732 bps, 59.15%, Err 481 (1.0e-04)
+603.693 .... 1400 packets received, 4752 bps, 59.41%, Err 482 (1.0e-04)
+608.195 .... 1402 packets received, 4724 bps, 59.05%, Err 487 (1.0e-04)
+612.428 .... 1412 packets received, 4725 bps, 59.06%, Err 490 (1.0e-04)
+614.541 .... 1424 packets received, 4749 bps, 59.36%, Err 492 (1.0e-04)
+616.657 .... 1431 packets received, 4755 bps, 59.44%, Err 494 (1.0e-04)
+622.481 .... 1438 packets received, 4734 bps, 59.18%, Err 501 (1.0e-04)
+624.616 .... 1448 packets received, 4751 bps, 59.38%, Err 502 (1.0e-04)
+626.757 .... 1454 packets received, 4754 bps, 59.43%, Err 502 (1.0e-04)
+628.848 .... 1460 packets received, 4758 bps, 59.47%, Err 502 (1.0e-04)
+633.365 .... 1462 packets received, 4730 bps, 59.13%, Err 509 (1.0e-04)
+635.513 .... 1472 packets received, 4747 bps, 59.33%, Err 509 (1.0e-04)
+638.401 .... 1478 packets received, 4744 bps, 59.30%, Err 511 (1.0e-04)
+641.323 .... 1484 packets received, 4742 bps, 59.27%, Err 515 (1.0e-04)
+644.494 .... 1492 packets received, 4744 bps, 59.30%, Err 516 (1.0e-04)
+647.933 .... 1500 packets received, 4744 bps, 59.30%, Err 518 (1.0e-04)
+651.097 .... 1507 packets received, 4743 bps, 59.29%, Err 522 (1.0e-04)
+654.538 .... 1508 packets received, 4721 bps, 59.01%, Err 523 (1.0e-04)
+656.668 .... 1519 packets received, 4740 bps, 59.25%, Err 525 (1.0e-04)
+660.122 .... 1522 packets received, 4725 bps, 59.06%, Err 530 (1.0e-04)
+663.311 .... 1532 packets received, 4733 bps, 59.16%, Err 531 (1.0e-04)
+666.224 .... 1538 packets received, 4731 bps, 59.13%, Err 534 (1.0e-04)
+668.341 .... 1550 packets received, 4752 bps, 59.40%, Err 534 (1.0e-04)
+674.687 .... 1554 packets received, 4720 bps, 59.00%, Err 545 (1.0e-04)
+677.873 .... 1565 packets received, 4731 bps, 59.14%, Err 545 (1.0e-04)
+679.972 .... 1572 packets received, 4737 bps, 59.22%, Err 548 (1.0e-04)
+683.167 .... 1576 packets received, 4727 bps, 59.09%, Err 552 (1.0e-04)
+686.629 .... 1584 packets received, 4727 bps, 59.09%, Err 554 (1.0e-04)
+689.001 .... 1588 packets received, 4723 bps, 59.04%, Err 556 (1.0e-04)
+692.701 .... 1598 packets received, 4727 bps, 59.09%, Err 558 (1.0e-04)
+694.832 .... 1603 packets received, 4727 bps, 59.09%, Err 560 (1.0e-04)
+700.378 .... 1611 packets received, 4713 bps, 58.92%, Err 566 (1.0e-04)
+705.422 .... 1615 packets received, 4691 bps, 58.64%, Err 572 (1.0e-04)
+707.811 .... 1626 packets received, 4707 bps, 58.84%, Err 572 (1.0e-04)
+710.468 .... 1632 packets received, 4707 bps, 58.84%, Err 573 (1.0e-04)
+713.111 .... 1640 packets received, 4712 bps, 58.91%, Err 575 (1.0e-04)
+715.212 .... 1651 packets received, 4730 bps, 59.13%, Err 577 (1.0e-04)
+718.143 .... 1658 packets received, 4731 bps, 59.14%, Err 578 (1.0e-04)
+720.782 .... 1667 packets received, 4739 bps, 59.24%, Err 579 (1.0e-04)
+722.893 .... 1678 packets received, 4756 bps, 59.45%, Err 579 (1.0e-04)
+726.067 .... 1686 packets received, 4758 bps, 59.48%, Err 581 (1.0e-04)
+728.732 .... 1692 packets received, 4758 bps, 59.47%, Err 582 (1.0e-04)
+731.107 .... 1703 packets received, 4773 bps, 59.66%, Err 583 (1.0e-04)
+735.096 .... 1704 packets received, 4750 bps, 59.37%, Err 586 (1.0e-04)
+737.200 .... 1712 packets received, 4759 bps, 59.48%, Err 589 (1.0e-04)
+739.588 .... 1715 packets received, 4751 bps, 59.39%, Err 592 (1.0e-04)
+744.088 .... 1717 packets received, 4728 bps, 59.10%, Err 596 (1.0e-04)
+746.202 .... 1728 packets received, 4745 bps, 59.31%, Err 599 (1.0e-04)
+748.314 .... 1733 packets received, 4745 bps, 59.32%, Err 599 (1.0e-04)
+750.715 .... 1737 packets received, 4741 bps, 59.26%, Err 603 (1.0e-04)
+753.909 .... 1747 packets received, 4748 bps, 59.35%, Err 605 (1.0e-04)
+757.345 .... 1755 packets received, 4748 bps, 59.35%, Err 606 (1.0e-04)
+759.455 .... 1763 packets received, 4757 bps, 59.46%, Err 606 (1.0e-04)
+761.583 .... 1768 packets received, 4757 bps, 59.46%, Err 606 (9.9e-05)
+763.695 .... 1770 packets received, 4749 bps, 59.36%, Err 607 (9.9e-05)
+767.144 .... 1780 packets received, 4754 bps, 59.43%, Err 608 (9.9e-05)
+770.592 .... 1791 packets received, 4762 bps, 59.53%, Err 611 (9.9e-05)
+773.757 .... 1798 packets received, 4761 bps, 59.52%, Err 617 (1.0e-04)
+779.570 .... 1805 packets received, 4744 bps, 59.30%, Err 622 (1.0e-04)
+781.959 .... 1816 packets received, 4759 bps, 59.48%, Err 623 (1.0e-04)
+792.567 .... 1817 packets received, 4697 bps, 58.72%, Err 634 (1.0e-04)
+794.682 .... 1830 packets received, 4718 bps, 58.98%, Err 638 (1.0e-04)
+797.071 .... 1834 packets received, 4715 bps, 58.93%, Err 639 (1.0e-04)
+799.201 .... 1846 packets received, 4733 bps, 59.16%, Err 639 (1.0e-04)
+804.222 .... 1851 packets received, 4716 bps, 58.95%, Err 643 (1.0e-04)
+806.355 .... 1861 packets received, 4729 bps, 59.11%, Err 647 (1.0e-04)
+808.471 .... 1869 packets received, 4737 bps, 59.21%, Err 647 (1.0e-04)
+810.601 .... 1877 packets received, 4745 bps, 59.31%, Err 648 (1.0e-04)
+812.989 .... 1882 packets received, 4743 bps, 59.29%, Err 651 (1.0e-04)
+815.379 .... 1885 packets received, 4737 bps, 59.21%, Err 653 (1.0e-04)
+817.494 .... 1894 packets received, 4747 bps, 59.34%, Err 654 (1.0e-04)
+819.608 .... 1901 packets received, 4752 bps, 59.40%, Err 655 (1.0e-04)
+821.750 .... 1909 packets received, 4760 bps, 59.50%, Err 657 (1.0e-04)
+827.293 .... 1914 packets received, 4740 bps, 59.25%, Err 663 (1.0e-04)
+829.407 .... 1926 packets received, 4758 bps, 59.47%, Err 665 (1.0e-04)
+831.540 .... 1933 packets received, 4763 bps, 59.54%, Err 666 (1.0e-04)
+833.913 .... 1938 packets received, 4762 bps, 59.52%, Err 669 (1.0e-04)
+836.578 .... 1944 packets received, 4761 bps, 59.52%, Err 671 (1.0e-04)
+838.709 .... 1953 packets received, 4771 bps, 59.64%, Err 673 (1.0e-04)
+840.795 .... 1963 packets received, 4784 bps, 59.80%, Err 673 (1.0e-04)
+843.696 .... 1970 packets received, 4784 bps, 59.80%, Err 676 (1.0e-04)
+846.616 .... 1979 packets received, 4789 bps, 59.87%, Err 678 (1.0e-04)
+849.279 .... 1985 packets received, 4789 bps, 59.86%, Err 680 (1.0e-04)
+851.668 .... 1994 packets received, 4797 bps, 59.96%, Err 681 (1.0e-04)
+854.830 .... 1998 packets received, 4789 bps, 59.86%, Err 684 (1.0e-04)
+857.747 .... 2007 packets received, 4794 bps, 59.93%, Err 687 (1.0e-04)
+860.909 .... 2015 packets received, 4796 bps, 59.94%, Err 690 (1.0e-04)
+863.026 .... 2018 packets received, 4791 bps, 59.89%, Err 692 (1.0e-04)
+865.169 .... 2025 packets received, 4796 bps, 59.95%, Err 693 (1.0e-04)
+867.282 .... 2033 packets received, 4803 bps, 60.04%, Err 693 (1.0e-04)
+869.396 .... 2040 packets received, 4808 bps, 60.10%, Err 695 (1.0e-04)
+877.895 .... 2044 packets received, 4770 bps, 59.63%, Err 704 (1.0e-04)
+880.026 .... 2056 packets received, 4787 bps, 59.84%, Err 706 (1.0e-04)
+882.108 .... 2060 packets received, 4785 bps, 59.81%, Err 707 (1.0e-04)
+885.300 .... 2071 packets received, 4793 bps, 59.91%, Err 708 (1.0e-04)
+887.945 .... 2080 packets received, 4799 bps, 59.99%, Err 711 (1.0e-04)
+890.605 .... 2088 packets received, 4804 bps, 60.04%, Err 712 (1.0e-04)
+892.718 .... 2095 packets received, 4808 bps, 60.10%, Err 714 (1.0e-04)
+895.910 .... 2101 packets received, 4805 bps, 60.06%, Err 717 (1.0e-04)
+898.814 .... 2111 packets received, 4812 bps, 60.15%, Err 722 (1.0e-04)
+901.475 .... 2115 packets received, 4807 bps, 60.09%, Err 723 (1.0e-04)
+903.588 .... 2123 packets received, 4814 bps, 60.17%, Err 723 (1.0e-04)
+905.684 .... 2129 packets received, 4816 bps, 60.20%, Err 725 (1.0e-04)
+908.056 .... 2134 packets received, 4815 bps, 60.19%, Err 726 (1.0e-04)
+910.198 .... 2141 packets received, 4819 bps, 60.24%, Err 728 (1.0e-04)
+914.166 .... 2142 packets received, 4801 bps, 60.01%, Err 734 (1.0e-04)
+917.328 .... 2154 packets received, 4811 bps, 60.14%, Err 736 (1.0e-04)
+919.455 .... 2160 packets received, 4813 bps, 60.16%, Err 737 (1.0e-04)
+921.856 .... 2169 packets received, 4821 bps, 60.26%, Err 740 (1.0e-04)
+924.501 .... 2173 packets received, 4816 bps, 60.20%, Err 741 (1.0e-04)
+926.886 .... 2182 packets received, 4823 bps, 60.29%, Err 744 (1.0e-04)
+929.529 .... 2186 packets received, 4818 bps, 60.23%, Err 746 (1.0e-04)
+931.642 .... 2197 packets received, 4832 bps, 60.39%, Err 747 (1.0e-04)
+933.757 .... 2205 packets received, 4838 bps, 60.48%, Err 747 (1.0e-04)
+935.861 .... 2212 packets received, 4843 bps, 60.53%, Err 748 (1.0e-04)
+937.996 .... 2215 packets received, 4838 bps, 60.48%, Err 749 (1.0e-04)
+940.907 .... 2226 packets received, 4847 bps, 60.59%, Err 753 (1.0e-04)
+943.805 .... 2230 packets received, 4841 bps, 60.51%, Err 757 (1.0e-04)
+946.451 .... 2237 packets received, 4843 bps, 60.53%, Err 759 (1.0e-04)
+951.743 .... 2240 packets received, 4822 bps, 60.28%, Err 763 (1.0e-04)
+955.197 .... 2252 packets received, 4830 bps, 60.38%, Err 768 (1.0e-04)
+959.714 .... 2254 packets received, 4812 bps, 60.15%, Err 769 (1.0e-04)
+963.938 .... 2265 packets received, 4814 bps, 60.18%, Err 771 (1.0e-04)
+966.050 .... 2276 packets received, 4827 bps, 60.34%, Err 773 (1.0e-04)
+968.709 .... 2282 packets received, 4826 bps, 60.33%, Err 774 (1.0e-04)
+970.836 .... 2293 packets received, 4839 bps, 60.49%, Err 774 (1.0e-04)
+979.307 .... 2300 packets received, 4812 bps, 60.15%, Err 785 (1.0e-04)
+981.434 .... 2312 packets received, 4826 bps, 60.33%, Err 786 (1.0e-04)
+984.624 .... 2319 packets received, 4825 bps, 60.32%, Err 790 (1.0e-04)
+988.592 .... 2320 packets received, 4808 bps, 60.10%, Err 795 (1.0e-04)
+990.703 .... 2331 packets received, 4821 bps, 60.26%, Err 797 (1.0e-04)
+992.830 .... 2337 packets received, 4823 bps, 60.28%, Err 798 (1.0e-04)
+994.957 .... 2343 packets received, 4825 bps, 60.31%, Err 799 (1.0e-04)
+997.605 .... 2347 packets received, 4820 bps, 60.25%, Err 800 (1.0e-04)
+1000.000 .... 2355 packets received, 4825 bps, 60.31%, Err 801 (1.0e-04)
+1003.189 .... 2366 packets received, 4832 bps, 60.40%, Err 805 (1.0e-04)
+1005.846 .... 2373 packets received, 4833 bps, 60.42%, Err 806 (1.0e-04)
+1007.968 .... 2385 packets received, 4848 bps, 60.60%, Err 807 (1.0e-04)
+1010.075 .... 2392 packets received, 4852 bps, 60.65%, Err 808 (1.0e-04)
+1013.251 .... 2398 packets received, 4849 bps, 60.61%, Err 811 (1.0e-04)
+1015.361 .... 2409 packets received, 4861 bps, 60.76%, Err 811 (1.0e-04)
+1018.024 .... 2414 packets received, 4858 bps, 60.73%, Err 815 (1.0e-04)
+1020.663 .... 2417 packets received, 4852 bps, 60.65%, Err 817 (1.0e-04)
+1025.411 .... 2422 packets received, 4839 bps, 60.49%, Err 823 (1.0e-04)
+1028.074 .... 2429 packets received, 4841 bps, 60.51%, Err 825 (1.0e-04)
+1030.193 .... 2438 packets received, 4848 bps, 60.61%, Err 825 (1.0e-04)
+1032.314 .... 2444 packets received, 4850 bps, 60.63%, Err 826 (1.0e-04)
+1037.365 .... 2448 packets received, 4835 bps, 60.43%, Err 830 (1.0e-04)
+1039.471 .... 2460 packets received, 4849 bps, 60.61%, Err 830 (1.0e-04)
+1042.921 .... 2468 packets received, 4848 bps, 60.60%, Err 835 (1.0e-04)
+1045.018 .... 2479 packets received, 4860 bps, 60.75%, Err 836 (1.0e-04)
+1047.162 .... 2483 packets received, 4858 bps, 60.72%, Err 838 (1.0e-04)
+1049.264 .... 2487 packets received, 4856 bps, 60.70%, Err 839 (1.0e-04)
+1053.518 .... 2496 packets received, 4854 bps, 60.67%, Err 842 (1.0e-04)
+1056.681 .... 2507 packets received, 4861 bps, 60.76%, Err 846 (1.0e-04)
+1059.340 .... 2517 packets received, 4868 bps, 60.85%, Err 846 (1.0e-04)
+1061.732 .... 2521 packets received, 4865 bps, 60.81%, Err 848 (1.0e-04)
+1065.945 .... 2525 packets received, 4853 bps, 60.66%, Err 853 (1.0e-04)
+1068.347 .... 2535 packets received, 4861 bps, 60.77%, Err 854 (1.0e-04)
+1070.998 .... 2537 packets received, 4853 bps, 60.66%, Err 858 (1.0e-04)
+1077.611 .... 2539 packets received, 4827 bps, 60.34%, Err 864 (1.0e-04)
+1079.728 .... 2550 packets received, 4838 bps, 60.48%, Err 864 (1.0e-04)
+1082.379 .... 2556 packets received, 4838 bps, 60.47%, Err 866 (1.0e-04)
+1087.132 .... 2563 packets received, 4830 bps, 60.38%, Err 871 (1.0e-04)
+1090.315 .... 2575 packets received, 4838 bps, 60.48%, Err 873 (1.0e-04)
+1092.447 .... 2585 packets received, 4848 bps, 60.60%, Err 875 (1.0e-04)
+1095.604 .... 2592 packets received, 4847 bps, 60.59%, Err 876 (1.0e-04)
+1097.736 .... 2603 packets received, 4858 bps, 60.72%, Err 876 (1.0e-04)
+1099.850 .... 2609 packets received, 4860 bps, 60.75%, Err 878 (1.0e-04)
+1103.304 .... 2615 packets received, 4856 bps, 60.70%, Err 880 (1.0e-04)
+1106.192 .... 2621 packets received, 4854 bps, 60.68%, Err 882 (1.0e-04)
+1109.378 .... 2631 packets received, 4859 bps, 60.73%, Err 887 (1.0e-04)
+1113.621 .... 2633 packets received, 4844 bps, 60.55%, Err 891 (1.0e-04)
+1115.736 .... 2643 packets received, 4853 bps, 60.66%, Err 892 (1.0e-04)
+1117.866 .... 2651 packets received, 4858 bps, 60.73%, Err 894 (1.0e-04)
+1120.773 .... 2653 packets received, 4850 bps, 60.62%, Err 897 (1.0e-04)
+1124.211 .... 2661 packets received, 4849 bps, 60.62%, Err 903 (1.0e-04)
+1129.229 .... 2665 packets received, 4835 bps, 60.44%, Err 905 (1.0e-04)
+1131.358 .... 2678 packets received, 4849 bps, 60.62%, Err 905 (1.0e-04)
+1134.520 .... 2682 packets received, 4843 bps, 60.54%, Err 910 (1.0e-04)
+1141.161 .... 2687 packets received, 4824 bps, 60.30%, Err 915 (1.0e-04)
+1143.532 .... 2699 packets received, 4835 bps, 60.44%, Err 916 (1.0e-04)
+1145.935 .... 2706 packets received, 4838 bps, 60.47%, Err 917 (1.0e-04)
+1148.066 .... 2712 packets received, 4839 bps, 60.49%, Err 917 (1.0e-04)
+1150.437 .... 2717 packets received, 4838 bps, 60.48%, Err 920 (1.0e-04)
+1154.436 .... 2719 packets received, 4825 bps, 60.31%, Err 922 (1.0e-04)
+1156.548 .... 2730 packets received, 4836 bps, 60.45%, Err 924 (1.0e-04)
+1159.456 .... 2734 packets received, 4831 bps, 60.38%, Err 931 (1.0e-04)
+1161.584 .... 2738 packets received, 4829 bps, 60.36%, Err 932 (1.0e-04)
+1163.697 .... 2745 packets received, 4833 bps, 60.41%, Err 932 (1.0e-04)
+1165.797 .... 2752 packets received, 4836 bps, 60.45%, Err 933 (1.0e-04)
+1167.924 .... 2760 packets received, 4841 bps, 60.52%, Err 933 (1.0e-04)
+1172.946 .... 2765 packets received, 4829 bps, 60.37%, Err 938 (1.0e-04)
+1175.077 .... 2775 packets received, 4838 bps, 60.48%, Err 938 (1.0e-04)
+1177.468 .... 2779 packets received, 4835 bps, 60.44%, Err 940 (1.0e-04)
+1180.651 .... 2789 packets received, 4839 bps, 60.49%, Err 943 (1.0e-04)
+1187.018 .... 2795 packets received, 4824 bps, 60.30%, Err 951 (1.0e-04)
+1189.939 .... 2806 packets received, 4831 bps, 60.39%, Err 953 (1.0e-04)
+1192.315 .... 2811 packets received, 4830 bps, 60.37%, Err 955 (1.0e-04)
+1195.753 .... 2822 packets received, 4835 bps, 60.44%, Err 957 (1.0e-04)
+1200.513 .... 2824 packets received, 4819 bps, 60.24%, Err 961 (1.0e-04)
+1202.643 .... 2837 packets received, 4833 bps, 60.41%, Err 964 (1.0e-04)
+1205.580 .... 2843 packets received, 4831 bps, 60.39%, Err 967 (1.0e-04)
+1207.968 .... 2851 packets received, 4835 bps, 60.44%, Err 968 (1.0e-04)
+1210.079 .... 2862 packets received, 4845 bps, 60.57%, Err 968 (1.0e-04)
+1212.207 .... 2870 packets received, 4850 bps, 60.63%, Err 969 (1.0e-04)
+1214.852 .... 2876 packets received, 4850 bps, 60.62%, Err 972 (1.0e-04)
+1216.994 .... 2878 packets received, 4845 bps, 60.56%, Err 975 (1.0e-04)
+1220.160 .... 2887 packets received, 4847 bps, 60.59%, Err 977 (1.0e-04)
+1223.077 .... 2894 packets received, 4847 bps, 60.59%, Err 979 (1.0e-04)
+1225.735 .... 2901 packets received, 4849 bps, 60.61%, Err 980 (1.0e-04)
+1227.848 .... 2912 packets received, 4859 bps, 60.73%, Err 981 (1.0e-04)
+1229.958 .... 2916 packets received, 4857 bps, 60.71%, Err 983 (1.0e-04)
+1235.541 .... 2923 packets received, 4847 bps, 60.58%, Err 988 (1.0e-04)
+1237.670 .... 2935 packets received, 4858 bps, 60.73%, Err 991 (1.0e-04)
+1240.559 .... 2941 packets received, 4857 bps, 60.71%, Err 992 (1.0e-04)
+1243.498 .... 2950 packets received, 4860 bps, 60.75%, Err 996 (1.0e-04)
+1246.662 .... 2959 packets received, 4862 bps, 60.78%, Err 1000 (1.0e-04)
+1249.308 .... 2965 packets received, 4862 bps, 60.78%, Err 1001 (1.0e-04)
+1252.478 .... 2971 packets received, 4860 bps, 60.74%, Err 1006 (1.0e-04)
+1257.789 .... 2973 packets received, 4842 bps, 60.53%, Err 1008 (1.0e-04)
+1259.904 .... 2986 packets received, 4855 bps, 60.69%, Err 1010 (1.0e-04)
+1262.004 .... 2990 packets received, 4854 bps, 60.67%, Err 1012 (1.0e-04)
+1264.116 .... 3000 packets received, 4862 bps, 60.77%, Err 1014 (1.0e-04)
+1267.039 .... 3002 packets received, 4854 bps, 60.67%, Err 1015 (1.0

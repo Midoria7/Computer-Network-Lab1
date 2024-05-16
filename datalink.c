@@ -4,7 +4,7 @@
 #include "protocol.h"
 
 #define DATA_TIMER 2000
-#define ACK_TIMER 1200
+#define ACK_TIMER 800
 #define MAX_SEQ 63
 #define NR_BUFS ((MAX_SEQ + 1) / 2)
 #define inc(k) k = (k + 1) % (MAX_SEQ + 1)
